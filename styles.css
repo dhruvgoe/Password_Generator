@@ -261,7 +261,7 @@ h1 {
 
 
 /*Homework -> Explore below code */
-.slider::-moz-range-thumb {
+/* .slider::-moz-range-thumb {
     position: relative;
     z-index: 1;
     appearance: none;
@@ -277,4 +277,4 @@ h1 {
     outline: 2px solid var(--vb-yellow);
     background-color: var(--dk-violet);
     box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
-  }
+  } */
