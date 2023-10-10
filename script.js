@@ -19,7 +19,7 @@ let password = "";
 let passwordLength = 10;
 let checkCount = 0;
 handleSlider();
-//ste strength circle color to grey
+//set strength circle color to grey
 setIndicator("#ccc"); 
 
 
@@ -27,7 +27,6 @@ setIndicator("#ccc");
 function handleSlider() {
     inputSlider.value = passwordLength;
     lengthDisplay.innerText = passwordLength;
-    //or kuch bhi karna chahiye ? - HW
 }
 
 function setIndicator(color) {
@@ -191,7 +190,7 @@ generateBtn.addEventListener('click', () => {
     for(let i=0; i<funcArr.length; i++) {
         password += funcArr[i]();
     }
-    console.log("COmpulsory adddition done");
+    console.log("Compulsory addition done");
 
     //remaining adddition
     for(let i=0; i<passwordLength-funcArr.length; i++) {

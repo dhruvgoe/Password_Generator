@@ -249,7 +249,7 @@ h1 {
     transition: all 100ms ease-in;
 }
 
-.slider:focus{
+.slider:focus {
     outline: 3px solid var(--vb-yellow);
 }
 
